@@ -1,0 +1,23 @@
+project:
+  name: profile_anchored_persona_revision
+  seed: 42
+data:
+  processed_dir: data/processed
+  selected_question_ids: []  # Fill only after dataset audit
+model:
+  model_id: Qwen/Qwen2.5-1.5B-Instruct
+  fallback_model_id: Qwen/Qwen2.5-0.5B-Instruct
+  temperature: 0.0
+experiment:
+  conditions: [independent, unrestricted, revision_gate]
+  peer_majority_ratio: "2:1"
+  peer_count: 3
+  revision_rounds: 1
+  pilot_participants: 5
+  final_participant_limit: null
+prediction:
+  enabled: false
+output:
+  agent_runs: results/agent_outputs/agent_runs.jsonl
+  metrics_dir: results/metrics
+  figures_dir: results/figures
