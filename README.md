@@ -41,7 +41,31 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-Copy `configs/experiment.example.yaml` to `configs/experiment.yaml` after Member 1 verifies the data and question IDs.
+Copy `configs/experiment.example.yaml` to `configs/experiment.yaml` after Member 1 verifies the data and question IDs. **This has been done: the two verified targets (`QID196`, `QID9_3`) are already set in the example config.**
+
+### Data access
+All files under `data/` are gitignored. Fetch and build once per machine:
+
+```bash
+pip install huggingface_hub pandas pyarrow scikit-learn
+python scripts/download_raw_data.py                      # raw Twin-2K-500 files -> data/raw/
+python src/data_pipeline/build_processed_dataset.py      # processed files    -> data/processed/
+python -m pytest tests/data_pipeline/test_preprocessing_checklist.py   # 13 checks, all must pass
+```
+
+Column meaning, design rules and usage recipes for every processed file:
+**`context/data_dictionary.md`.** Integrity facts (audit): `notebooks/data-audit.ipynb`.
+
+## Processed dataset summary (verified, Member 1 handoff v1)
+- Dataset `LLM-Digital-Twin/Twin-2K-500`, config `wave_split`; 2,058 unique participants.
+- Core targets: **QID196** (marble-tray question, constant wording) and **QID9_3**
+  (purchase decision, **per-participant randomized passage**, 434 distinct variants —
+  use each participant's own passage from `data/processed/target_question_variants.csv`).
+- Splits: seed 42, stratified 70/15/15 → 1,440 / 309 / 309 (participant-disjoint).
+- Peer groups: train-only pool, exactly 2 majority : 1 minority, same group reused for B and C.
+- XGBoost: keep profile-only (634 columns) and expanded (+126) feature sets separate;
+  per-model exclusion lists are in `data/preprocessing_manifest.json`.
+- Full details: `context/data_dictionary.md`.
 
 ## Repository structure and ownership
 ```text
@@ -61,13 +85,25 @@ persona-sycophancy/
 │   ├── 07_experiment_protocol.md
 │   ├── 08_progress_tracker.md
 │   ├── 09_team_workflow.md
+│   ├── data_dictionary.md            # processed-data usage doc (read this first)
 │   └── agents/
 │       ├── shared_agent_context.md
 │       ├── member_1_data_agent.md
 │       ├── member_2_prediction_agent.md
 │       └── member_3_agent_experiment_agent.md
-├── data/{raw,processed}/
-├── notebooks/dataset_audit.ipynb
+├── data/
+│   ├── raw/                          # gitignored; scripts/download_raw_data.py
+│   ├── preprocessing_manifest.json   # seed / mappings / column roles / checksums
+│   └── processed/                    # gitignored; src/data_pipeline/build_processed_dataset.py
+│       ├── participant_splits.csv
+│       ├── persona_profiles.csv
+│       ├── target_questions.csv
+│       ├── target_question_variants.csv
+│       ├── human_answers.csv
+│       ├── peer_responses.csv
+│       ├── xgboost_features.csv
+│       └── xgboost_targets.csv
+├── notebooks/dataset_audit.ipynb     # executed audit (data-audit.ipynb)
 ├── src/
 │   ├── common/                 # shared contracts/config only
 │   ├── data_pipeline/          # Member 1 owns this
@@ -76,6 +112,7 @@ persona-sycophancy/
 │   └── evaluation/             # Member 3 owns this
 ├── tests/{data_pipeline,prediction,persona_experiment,integration}/
 ├── scripts/
+│   └── download_raw_data.py
 └── results/{agent_outputs,predictions,metrics,figures}/
 ```
 

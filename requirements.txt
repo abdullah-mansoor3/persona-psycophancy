@@ -5,8 +5,11 @@ torch
 pandas
 numpy
 scikit-learn
-xgboost
 scipy
-matplotlib
 pyyaml
+pyarrow
+huggingface_hub
+xgboost
+matplotlib
+jupyter
 pytest

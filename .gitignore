@@ -17,3 +17,4 @@ models/
 results/agent_outputs/*
 results/predictions/*
 !results/**/.gitkeep
+.pytest_cache/

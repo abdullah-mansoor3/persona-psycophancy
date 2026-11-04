@@ -3,7 +3,7 @@ project:
   seed: 42
 data:
   processed_dir: data/processed
-  selected_question_ids: []  # Fill only after dataset audit
+  selected_question_ids: [QID196, QID9_3]  # Verified against the dataset audit (see context/data_dictionary.md)
 model:
   model_id: Qwen/Qwen2.5-1.5B-Instruct
   fallback_model_id: Qwen/Qwen2.5-0.5B-Instruct

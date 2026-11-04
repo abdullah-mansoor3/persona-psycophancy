@@ -36,3 +36,25 @@ Suggested JSONL `results/agent_outputs/agent_runs.jsonl`, one object per run:
 
 ## Code boundaries
 Shared code in `src/common/` should contain only small shared dataclasses, validators, and config readers. Each member module should run independently via CLI and consume files, not private functions from another member. Avoid circular imports. Contract changes require agreement and tests.
+
+---
+
+## Finalized contract v1 — actual files from the audit/pipeline (2026-11-05)
+
+The proposed names above were refined during the audit into the following **actual
+delivered files** (member 1). Treat this section as the current contract; renaming a
+delivered file/column requires team agreement.
+
+| Proposed | Delivered | Notes |
+|---|---|---|
+| `questions.csv` | `data/processed/target_questions.csv` (+ `target_question_variants.csv`) | variants file added because QID9_3's passage is per-participant randomized (434 unique); persona prompts MUST use the participant's own row |
+| `participant_splits.csv` | same name | `participant_id`, `split`, `split_seed` (42), `split_version` (`v1`) |
+| `persona_profiles.csv` | same name | adds `persona_text` (exact source profile text), `profile_question_count`, `profile_missing_count`, `split` |
+| `human_ground_truth.csv` | `data/processed/human_answers.csv` | `wave1_3_answer` (persistence baseline / peer pool) + `wave4_answer` (ground truth) per participant × target; `is_complete` |
+| `peer_responses.csv` | same name | adds `peer_group_id`, `peer_position`, `peer_role` (`majority`/`minority`), `reused_for_conditions` (`"B,C"`); sampling already excludes focal and non-train peers |
+| `data_audit.json` | `data/preprocessing_manifest.json` + `notebooks/data-audit.ipynb` | manifest holds seed, mappings, column roles, exclusions, checksums |
+| XGBoost data | `xgboost_features.csv` + `xgboost_targets.csv` | label-level (string) features; encoding fit on train only; per-model exclusion lists in the manifest; profile-only (634 cols) vs expanded (+126) distinction kept in manifest lists |
+
+Selection flags: `target_questions.csv` uses `selected_for_core` for the two verified
+core targets (QID196, QID9_3); audited but non-selected candidates are listed with
+`selection_notes` for provenance.
