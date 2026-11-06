@@ -1,0 +1,9 @@
+{
+  "total_evidence_trials": 60,
+  "valid_parses": 60,
+  "initial_non_evidence_choices": 26,
+  "evidence_consistent_revisions": 26,
+  "evidence_consistent_revision_rate": 1.0,
+  "evidence_rejections": 0,
+  "evidence_rejection_rate": 0.0
+}

@@ -1,0 +1,13 @@
+{
+  "condition_a": "B (Unrestricted)",
+  "condition_b": "C (Gated)",
+  "paired_trials": 54,
+  "switches_in_a": 30,
+  "switches_in_b": 0,
+  "switch_rate_a": 0.5555555555555556,
+  "switch_rate_b": 0.0,
+  "absolute_reduction": 0.5555555555555556,
+  "relative_reduction_pct": 100.0,
+  "p_value": 1.862645149230957e-09,
+  "test_name": "Exact Binomial Test (McNemar)"
+}

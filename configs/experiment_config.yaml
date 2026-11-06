@@ -1,0 +1,37 @@
+# Member 3: Persona-Sycophancy Experiment Configuration
+# Project: Profile-Anchored Revision for Synthetic Personas
+
+data:
+  processed_dir: "../persona-psycophancy-main/data/processed"
+  manifest_path: "../persona-psycophancy-main/data/preprocessing_manifest.json"
+  target_questions:
+    - "QID196"
+    - "QID9_3"
+  split: "test"  # Evaluate only on unseen test partition
+  profile_context_max_chars: 12000  # Token-budget-conscious persona profile truncation
+
+model:
+  name: "Qwen/Qwen2.5-1.5B-Instruct"
+  fallback_name: "Qwen/Qwen2.5-0.5B-Instruct"
+  provider: "mock"  # "mock", "transformers", "hf_inference", or "ollama"
+  temperature: 0.0  # Greedy decoding for reproducible persona experiments
+  max_new_tokens: 512
+  top_p: 1.0
+  seed: 42
+
+execution:
+  pilot_participants: 5   # Required 5-participant test before full run
+  full_participants: 60   # Protocol target: 60 test participants x 2 questions = 120 instances
+  enable_experiment_a: true  # Independent baseline
+  enable_experiment_b: true  # Unrestricted peer interaction
+  enable_experiment_c: true  # Profile-Anchored Revision Gate (our contribution)
+  enable_experiment_d: false # Optional XGBoost integration
+  enable_experiment_e: true  # Evidence-positive test
+
+output:
+  results_dir: "results"
+  agent_outputs_dir: "results/agent_outputs"
+  metrics_dir: "results/metrics"
+  figures_dir: "results/figures"
+  logs_dir: "results/logs"
+
