@@ -1,0 +1,15 @@
+﻿Dataset rows: features=2058; target rows=4116; split rows=2058.
+Unique participant IDs: features=2058; splits=2058.
+Feature participant IDs match split IDs: True.
+Feature ID duplicates: 0. Split ID duplicates: 0.
+Duplicate participant-question target rows: 0.
+Participant split assignments spanning multiple splits: 0.
+Split counts: validation=309, train=1440, test=309.
+Wave 4 target labels are evaluation labels; predictors are sourced from wave1_3_response_label.csv per manifest.
+Participant ID and split metadata are excluded from predictors.
+QID196 exclusions: QID196, QID9_3.
+QID9_3 exclusions: strict manifest blocklist (41 columns): QID9_1..QID9_40 plus QID196.
+Free-text inputs excluded from both models: 62.
+Predictor columns after exclusions: QID196=696; QID9_3=657.
+Feature roles: categorical=602; binary_multiselect=84; numeric=12; free_text=62; unknown=0.
+Important preprocessing constraint: branch NaN means not assigned; encode as its own category, not imputed as an answer.
