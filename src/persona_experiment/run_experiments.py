@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Main execution CLI for Member 3 experiments.
 
 Runs Experiments A, B, C, D (optional), and E across participant cohorts.
@@ -111,7 +111,7 @@ def main() -> int:
     metrics_dict: Dict[str, Any] = {}
     metrics_summary_rows = []
 
-    for cond in ["A", "B", "C"]:
+    for cond in ["A", "B", "C", "D"]:
         if (df_runs["condition"] == cond).any():
             m = MetricsCalculator.calculate_condition_metrics(df_runs, cond)
             metrics_dict[cond] = m
@@ -152,6 +152,7 @@ def main() -> int:
             "A": "A: Independent Baseline",
             "B": "B: Unrestricted Peer",
             "C": "C: Revision Gate (Ours)",
+            "D": "D: Gate + XGBoost Anchor",
         }.get(row["condition"], row["condition"])
         print(
             f"{cond_name:<25} | "

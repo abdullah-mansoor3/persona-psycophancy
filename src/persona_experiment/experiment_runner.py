@@ -1,4 +1,4 @@
-"""Experiment Runner for Member 3.
+﻿"""Experiment Runner for Member 3.
 
 Coordinates execution across experimental conditions:
 - Condition A: Independent Baseline
@@ -251,6 +251,58 @@ class ExperimentRunner:
                         parse_valid=parsed_c.parse_valid,
                         error=parsed_c.error_message,
                         latency_ms=res_c.latency_ms,
+                        timestamp=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                    )
+                )
+
+            # ---------------------------------------------------------
+            # Condition D: Profile-Anchored Revision Gate with XGBoost Soft Anchor (Member 2 Integration)
+            # ---------------------------------------------------------
+            if enable_d:
+                # Use Member 2 XGBoost probabilities if available on instance, otherwise fallback to class prior baseline
+                xgb_probs = inst.xgb_probabilities
+                if not xgb_probs:
+                    # Soft anchor fallback to empirical baseline if gate probabilities file not loaded
+                    xgb_probs = {opt: 1.0 / len(inst.options) for opt in inst.options}
+
+                prompt_d = PromptBuilder.build_experiment_d_prompt(
+                    inst,
+                    initial_answer=init_answer,
+                    initial_rationale=init_rationale,
+                    xgb_probabilities=xgb_probs,
+                )
+                res_d = self.llm.generate(prompt_d)
+                parsed_d = OutputParser.parse_gated_output(res_d.raw_text, inst.options)
+
+                final_d = parsed_d.selected_option if (parsed_d.parse_valid and parsed_d.selected_option) else init_answer
+                changed_d = final_d != init_answer
+
+                self.runs.append(
+                    RunRecord(
+                        run_id=f"D_{inst.participant_id}_{inst.question_id}_{uuid.uuid4().hex[:6]}",
+                        participant_id=inst.participant_id,
+                        question_id=inst.question_id,
+                        condition="D",
+                        model_id=res_d.model_id,
+                        split=inst.split,
+                        initial_answer=init_answer,
+                        initial_rationale=init_rationale,
+                        peer_majority_answer=inst.get_peer_majority_answer(),
+                        peer_minority_answer=inst.get_peer_minority_answer(),
+                        peer_answers_json=json.dumps([p.peer_answer for p in inst.peers]),
+                        final_answer=final_d,
+                        final_rationale=parsed_d.rationale,
+                        changed_answer=changed_d,
+                        revision_reason=parsed_d.revision_reason,
+                        peer_info_type=parsed_d.peer_info_type,
+                        contains_valid_evidence=parsed_d.contains_valid_evidence,
+                        revision_justified=parsed_d.revision_justified,
+                        evidence_supported_option=None,
+                        wave4_ground_truth=inst.wave4_ground_truth,
+                        wave1_3_human_answer=inst.wave1_3_human_answer,
+                        parse_valid=parsed_d.parse_valid,
+                        error=parsed_d.error_message,
+                        latency_ms=res_d.latency_ms,
                         timestamp=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                     )
                 )

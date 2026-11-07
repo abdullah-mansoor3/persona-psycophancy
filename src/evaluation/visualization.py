@@ -1,4 +1,4 @@
-"""Visualization module for Member 3.
+﻿"""Visualization module for Member 3.
 
 Generates clear, publication-quality figures for:
 1. Conformity comparison (Condition B Unrestricted vs Condition C Gated)
@@ -95,8 +95,14 @@ class Visualizer:
         """Bar plot comparing Wave 4 exact match and macro-F1 across conditions."""
         fig, ax = plt.subplots(figsize=(9, 6), dpi=300)
 
-        conditions = ["A", "B", "C"]
-        cond_labels = ["A: Independent", "B: Unrestricted", "C: Revision Gate"]
+        all_possible = [
+            ("A", "A: Independent"),
+            ("B", "B: Unrestricted"),
+            ("C", "C: Revision Gate"),
+            ("D", "D: Gate+XGBoost"),
+        ]
+        conditions = [c for c, _ in all_possible if c in metrics_dict]
+        cond_labels = [label for c, label in all_possible if c in metrics_dict]
 
         exact_matches = [metrics_dict[c].wave4_exact_match_rate * 100 for c in conditions if c in metrics_dict]
         macro_f1s = [metrics_dict[c].wave4_macro_f1 * 100 for c in conditions if c in metrics_dict]

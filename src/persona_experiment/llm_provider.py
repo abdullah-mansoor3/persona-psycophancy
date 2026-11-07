@@ -1,4 +1,4 @@
-"""LLM Provider abstraction layer for Member 3.
+﻿"""LLM Provider abstraction layer for Member 3.
 
 Supports:
 1. HuggingFace Transformers (for Colab / Kaggle / GPU environments)
@@ -216,14 +216,25 @@ class MockProvider(LLMProvider):
                 initial_match = re.search(r'- Option:\s*"([^"]+)"', prompt)
                 initial_choice = initial_match.group(1) if initial_match else "the small tray"
 
-                output_obj = {
-                    "peer_information_type": "social_majority_only",
-                    "contains_valid_new_evidence": False,
-                    "revision_justified": False,
-                    "selected_option": initial_choice,
-                    "short_rationale": f"Adhering to initial grounded choice '{initial_choice}'. Other participants only expressed preference votes without verifiable factual or logical evidence.",
-                    "revision_reason": "Gate blocked revision: a numerical majority alone without substantive evidence does not justify abandoning the profile-anchored baseline.",
-                }
+                if "Statistical Reference Anchor (Machine Learning Baseline)" in prompt:
+                    # Condition D: Profile-Anchored Revision Gate with XGBoost Soft Anchor
+                    output_obj = {
+                        "peer_information_type": "social_majority_only",
+                        "contains_valid_new_evidence": False,
+                        "revision_justified": False,
+                        "selected_option": initial_choice,
+                        "short_rationale": f"Adhering to initial grounded choice '{initial_choice}'. The statistical anchor and peer majority are noted as reference signals, but do not provide logical or factual proof to overturn the profile baseline.",
+                        "revision_reason": "Gate blocked revision: soft machine learning reference anchor and peer counts do not constitute verifiable disproof of the profile choice.",
+                    }
+                else:
+                    output_obj = {
+                        "peer_information_type": "social_majority_only",
+                        "contains_valid_new_evidence": False,
+                        "revision_justified": False,
+                        "selected_option": initial_choice,
+                        "short_rationale": f"Adhering to initial grounded choice '{initial_choice}'. Other participants only expressed preference votes without verifiable factual or logical evidence.",
+                        "revision_reason": "Gate blocked revision: a numerical majority alone without substantive evidence does not justify abandoning the profile-anchored baseline.",
+                    }
         elif "Other Participants' Responses:" in prompt and "reconsider your response" in prompt:
             # Experiment B: Unrestricted peer interaction
             initial_match = re.search(r'- Option:\s*"([^"]+)"', prompt)

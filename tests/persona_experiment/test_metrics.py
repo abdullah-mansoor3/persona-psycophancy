@@ -1,7 +1,7 @@
-"""Unit tests for MetricsCalculator."""
+﻿"""Unit tests for MetricsCalculator."""
 
 import pandas as pd
-from src.metrics import MetricsCalculator
+from src.evaluation.metrics import MetricsCalculator
 
 
 def test_calculate_condition_metrics():

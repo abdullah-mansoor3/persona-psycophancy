@@ -1,4 +1,4 @@
-"""Data loading and verification module for Member 3.
+﻿"""Data loading and verification module for Member 3.
 
 Loads Member 1's processed dataset files according to shared contracts v1.
 Guarantees zero leakage of Wave 4 ground truth into persona prompts.
@@ -37,6 +37,7 @@ class ParticipantQuestionInstance:
     # Human reference answers (STRICTLY FOR EVALUATION - NEVER IN PROMPTS)
     wave4_ground_truth: str
     wave1_3_human_answer: str
+    xgb_probabilities: Optional[Dict[str, float]] = None
 
     def get_peer_majority_answer(self) -> str:
         """Return the answer held by the 2-peer majority."""
@@ -65,6 +66,9 @@ class Member3DataLoader:
             Path("../persona-psycophancy-main/data/processed"),
             Path("./persona-psycophancy-main/data/processed"),
             Path("persona-psycophancy-main/data/processed"),
+            Path("persona-psycophancy-main/persona-psycophancy-main/data/processed"),
+            Path("../persona-psycophancy-main/persona-psycophancy-main/data/processed"),
+            Path("../../data/processed"),
             Path("../data/processed"),
             Path("data/processed"),
             Path("/content/persona-psycophancy-main/data/processed"),
@@ -113,6 +117,7 @@ class Member3DataLoader:
         self.peers_df: Optional[pd.DataFrame] = None
         self.human_df: Optional[pd.DataFrame] = None
         self.manifest: Optional[dict] = None
+        self.xgb_df: Optional[pd.DataFrame] = None
 
         self._load_all()
 
@@ -140,6 +145,19 @@ class Member3DataLoader:
                 self.manifest = json.load(f)
         else:
             logger.warning(f"Manifest not found at {self.manifest_path}")
+
+        # Optional Member 2 XGBoost gate probabilities handoff
+        xgb_candidates = [
+            self.processed_dir.parent.parent / "outputs" / "xgboost" / "predictions" / "xgboost_gate_probabilities.csv",
+            self.processed_dir.parent / "outputs" / "xgboost" / "predictions" / "xgboost_gate_probabilities.csv",
+            Path("outputs/xgboost/predictions/xgboost_gate_probabilities.csv"),
+            Path("../outputs/xgboost/predictions/xgboost_gate_probabilities.csv"),
+        ]
+        for x_cand in xgb_candidates:
+            if x_cand.exists():
+                logger.info(f"Loaded Member 2 XGBoost gate probabilities from {x_cand}")
+                self.xgb_df = pd.read_csv(x_cand)
+                break
 
     def get_eligible_instances(
         self,
@@ -216,6 +234,18 @@ class Member3DataLoader:
                 if len(peers) != 3:
                     logger.warning(f"Expected 3 peers for pid {pid}, qid {qid}, found {len(peers)}")
 
+                # Optional Member 2 XGBoost probability distribution
+                xgb_probs = None
+                if self.xgb_df is not None:
+                    x_rows = self.xgb_df[
+                        (self.xgb_df["participant_id"] == pid) & (self.xgb_df["question_id"] == qid)
+                    ]
+                    if not x_rows.empty:
+                        try:
+                            xgb_probs = json.loads(x_rows.iloc[0]["probabilities_json"])
+                        except Exception:
+                            xgb_probs = None
+
                 instances.append(
                     ParticipantQuestionInstance(
                         participant_id=pid,
@@ -227,6 +257,7 @@ class Member3DataLoader:
                         peers=peers,
                         wave4_ground_truth=w4_gt,
                         wave1_3_human_answer=w13_ans,
+                        xgb_probabilities=xgb_probs,
                     )
                 )
 

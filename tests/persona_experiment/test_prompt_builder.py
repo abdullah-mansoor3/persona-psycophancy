@@ -1,15 +1,15 @@
-"""Unit tests for Member 3 Prompt Builder."""
+﻿"""Unit tests for Member 3 Prompt Builder."""
 
 from pathlib import Path
 import pytest
-from src.data_loader import Member3DataLoader
-from src.prompt_builder import PromptBuilder
+from src.persona_experiment.data_loader import Member3DataLoader
+from src.persona_experiment.prompt_builder import PromptBuilder
 
 
 @pytest.fixture
 def instance():
-    data_dir = Path(__file__).resolve().parents[2] / "persona-psycophancy-main" / "data" / "processed"
-    manifest_path = Path(__file__).resolve().parents[2] / "persona-psycophancy-main" / "data" / "preprocessing_manifest.json"
+    data_dir = Path(__file__).resolve().parents[2] / "data" / "processed"
+    manifest_path = Path(__file__).resolve().parents[2] / "data" / "preprocessing_manifest.json"
     if not data_dir.exists():
         pytest.skip("Processed data directory not found")
     loader = Member3DataLoader(processed_dir=data_dir, manifest_path=manifest_path)

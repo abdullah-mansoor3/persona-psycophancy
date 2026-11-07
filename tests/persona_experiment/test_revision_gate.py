@@ -1,7 +1,7 @@
-"""Unit tests for OutputParser and Revision Gate parsing."""
+﻿"""Unit tests for OutputParser and Revision Gate parsing."""
 
 import json
-from src.revision_gate import OutputParser
+from src.persona_experiment.revision_gate import OutputParser
 
 
 def test_option_matching():

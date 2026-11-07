@@ -1,16 +1,16 @@
-"""End-to-end integration test for Member 3."""
+﻿"""End-to-end integration test for Member 3."""
 
 from pathlib import Path
 import pytest
-from src.data_loader import Member3DataLoader
-from src.experiment_runner import ExperimentRunner
-from src.llm_provider import MockProvider
-from src.metrics import MetricsCalculator
+from src.persona_experiment.data_loader import Member3DataLoader
+from src.persona_experiment.experiment_runner import ExperimentRunner
+from src.persona_experiment.llm_provider import MockProvider
+from src.evaluation.metrics import MetricsCalculator
 
 
 def test_full_pipeline_5_participants(tmp_path):
-    data_dir = Path(__file__).resolve().parents[2] / "persona-psycophancy-main" / "data" / "processed"
-    manifest_path = Path(__file__).resolve().parents[2] / "persona-psycophancy-main" / "data" / "preprocessing_manifest.json"
+    data_dir = Path(__file__).resolve().parents[2] / "data" / "processed"
+    manifest_path = Path(__file__).resolve().parents[2] / "data" / "preprocessing_manifest.json"
     if not data_dir.exists():
         pytest.skip("Processed data directory not found")
 
