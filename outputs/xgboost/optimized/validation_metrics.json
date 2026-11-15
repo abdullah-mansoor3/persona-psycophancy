@@ -1,0 +1,312 @@
+{
+  "test_split_used": false,
+  "selection": "4-fold stratified CV on train; accuracy scoring; threshold tuned on train OOF predictions",
+  "threshold_grid": "0.25 through 0.75 in 0.01 steps",
+  "seed": 42,
+  "split_version": "v1",
+  "package_versions": {
+    "pandas": "3.1.1",
+    "scikit_learn": "1.9.1",
+    "xgboost": "3.2.0"
+  },
+  "questions": {
+    "QID196": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "profile_features": 696,
+      "engineered_question_fields": [],
+      "cv_accuracy": 0.7180555555555556,
+      "cv_oof_accuracy_at_selected_threshold": 0.7243055555555555,
+      "selected_threshold_for_option_2": 0.42,
+      "selected_parameters": {
+        "classifier__learning_rate": 0.03,
+        "classifier__max_depth": 2,
+        "classifier__n_estimators": 100
+      },
+      "candidate_results": [
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.7027777777777777,
+            0.7166666666666667,
+            0.7472222222222222,
+            0.7055555555555556
+          ],
+          "mean_accuracy": 0.7180555555555556
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.6944444444444444,
+            0.7083333333333334,
+            0.7361111111111112,
+            0.7027777777777777
+          ],
+          "mean_accuracy": 0.7104166666666667
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.6916666666666667,
+            0.7,
+            0.7333333333333333,
+            0.7027777777777777
+          ],
+          "mean_accuracy": 0.7069444444444444
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.6861111111111111,
+            0.6833333333333333,
+            0.7305555555555555,
+            0.6916666666666667
+          ],
+          "mean_accuracy": 0.6979166666666667
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.7083333333333334,
+            0.6916666666666667,
+            0.725,
+            0.6805555555555556
+          ],
+          "mean_accuracy": 0.7013888888888888
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.6722222222222223,
+            0.6722222222222223,
+            0.6972222222222222,
+            0.6666666666666666
+          ],
+          "mean_accuracy": 0.6770833333333334
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.6777777777777778,
+            0.6916666666666667,
+            0.725,
+            0.6777777777777778
+          ],
+          "mean_accuracy": 0.6930555555555555
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.6861111111111111,
+            0.6916666666666667,
+            0.7277777777777777,
+            0.6555555555555556
+          ],
+          "mean_accuracy": 0.6902777777777778
+        }
+      ],
+      "validation": {
+        "optimized_xgboost": {
+          "accuracy": 0.7022653721682848,
+          "macro_f1": 0.6866402116402117,
+          "balanced_accuracy": 0.6894318384849026
+        },
+        "prior_answer_persistence": {
+          "accuracy": 0.7087378640776699,
+          "macro_f1": 0.6934523809523809,
+          "balanced_accuracy": 0.6963328568876184
+        },
+        "majority_class": {
+          "accuracy": 0.6245954692556634,
+          "macro_f1": 0.3844621513944223,
+          "balanced_accuracy": 0.5
+        }
+      },
+      "unoptimized_argmax_validation_accuracy": 0.7119741100323624,
+      "parsed_question_context_coverage": null
+    },
+    "QID9_3": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "profile_features": 657,
+      "engineered_question_fields": [
+        "product_category",
+        "product_title",
+        "product_price"
+      ],
+      "cv_accuracy": 0.8611111111111112,
+      "cv_oof_accuracy_at_selected_threshold": 0.8611111111111112,
+      "selected_threshold_for_option_2": 0.37,
+      "selected_parameters": {
+        "classifier__learning_rate": 0.03,
+        "classifier__max_depth": 2,
+        "classifier__n_estimators": 100
+      },
+      "candidate_results": [
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.8861111111111111,
+            0.8583333333333333,
+            0.8555555555555555,
+            0.8444444444444444
+          ],
+          "mean_accuracy": 0.8611111111111112
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.8861111111111111,
+            0.8583333333333333,
+            0.8527777777777777,
+            0.8444444444444444
+          ],
+          "mean_accuracy": 0.8604166666666667
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.8861111111111111,
+            0.8583333333333333,
+            0.8555555555555555,
+            0.8444444444444444
+          ],
+          "mean_accuracy": 0.8611111111111112
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.8861111111111111,
+            0.8555555555555555,
+            0.85,
+            0.8416666666666667
+          ],
+          "mean_accuracy": 0.8583333333333334
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.8833333333333333,
+            0.8555555555555555,
+            0.85,
+            0.8416666666666667
+          ],
+          "mean_accuracy": 0.857638888888889
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.8527777777777777,
+            0.8416666666666667,
+            0.85,
+            0.8361111111111111
+          ],
+          "mean_accuracy": 0.8451388888888889
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "fold_accuracy": [
+            0.875,
+            0.8527777777777777,
+            0.8527777777777777,
+            0.8388888888888889
+          ],
+          "mean_accuracy": 0.8548611111111112
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "fold_accuracy": [
+            0.8694444444444445,
+            0.8444444444444444,
+            0.85,
+            0.8388888888888889
+          ],
+          "mean_accuracy": 0.8506944444444445
+        }
+      ],
+      "validation": {
+        "optimized_xgboost": {
+          "accuracy": 0.8122977346278317,
+          "macro_f1": 0.8112520010110371,
+          "balanced_accuracy": 0.8106563576771157
+        },
+        "prior_answer_persistence": {
+          "accuracy": 0.8122977346278317,
+          "macro_f1": 0.8112520010110371,
+          "balanced_accuracy": 0.8106563576771157
+        },
+        "majority_class": {
+          "accuracy": 0.5275080906148867,
+          "macro_f1": 0.3453389830508475,
+          "balanced_accuracy": 0.5
+        }
+      },
+      "unoptimized_argmax_validation_accuracy": 0.8122977346278317,
+      "parsed_question_context_coverage": 1.0
+    }
+  }
+}

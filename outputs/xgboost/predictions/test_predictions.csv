@@ -1,0 +1,619 @@
+participant_id,question_id,split,true_label,predicted_label,model_id,probability_the_small_tray,probability_the_large_tray,probability_yes_i_would_purchase_the_product,probability_no_i_would_not_purchase_the_product
+6,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.3449378,0.6550622,,
+11,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.67364705,0.32635298,,
+13,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.47386533,0.52613467,,
+17,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7565015,0.24349852,,
+19,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.62742746,0.37257254,,
+28,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8009262,0.1990738,,
+35,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7900436,0.20995644,,
+41,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7671233,0.2328767,,
+51,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6448897,0.35511032,,
+53,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7787413,0.22125871,,
+54,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.51152277,0.48847723,,
+55,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.64400136,0.35599864,,
+82,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6426384,0.3573616,,
+83,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6303134,0.36968663,,
+89,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.41419697,0.58580303,,
+94,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.72792715,0.27207285,,
+97,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5161129,0.48388705,,
+121,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.76953816,0.23046184,,
+127,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.73518455,0.26481548,,
+131,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.4986949,0.5013051,,
+132,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7736507,0.2263493,,
+141,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7204218,0.27957818,,
+145,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.52427125,0.47572872,,
+157,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.4856919,0.5143081,,
+161,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.54823726,0.45176274,,
+165,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5166829,0.48331708,,
+169,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.84782684,0.15217316,,
+172,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8208377,0.17916232,,
+194,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6023127,0.39768732,,
+196,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6583618,0.34163824,,
+201,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.9286618,0.07133821,,
+202,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5395839,0.46041608,,
+206,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8252813,0.17471868,,
+212,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.64530087,0.35469913,,
+216,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5870528,0.4129472,,
+217,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6810125,0.31898746,,
+223,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7307847,0.2692153,,
+224,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5945778,0.40542218,,
+225,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.43435025,0.56564975,,
+226,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.43300653,0.5669935,,
+229,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6679964,0.33200356,,
+234,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.4180174,0.5819826,,
+250,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.841913,0.158087,,
+251,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.81402475,0.18597524,,
+253,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.48078465,0.51921535,,
+259,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.34199035,0.65800965,,
+260,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.62284386,0.37715617,,
+265,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.55321395,0.44678605,,
+269,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.61556077,0.3844392,,
+272,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7731242,0.2268758,,
+279,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.656677,0.34332296,,
+283,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.80127656,0.1987234,,
+285,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.46670592,0.5332941,,
+288,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6258389,0.3741611,,
+293,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.84086657,0.15913342,,
+302,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.55960166,0.4403983,,
+303,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.52945316,0.47054684,,
+318,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.80881435,0.19118564,,
+320,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.9158705,0.084129505,,
+335,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6089731,0.3910269,,
+339,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5304506,0.46954945,,
+361,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.69286394,0.30713603,,
+374,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7671994,0.23280062,,
+378,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6938382,0.30616182,,
+379,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7694589,0.23054114,,
+387,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6247721,0.37522796,,
+390,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.43601507,0.56398493,,
+417,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.83069223,0.16930777,,
+418,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6212816,0.3787184,,
+420,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.56527853,0.43472147,,
+421,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.23544806,0.76455194,,
+422,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.64627314,0.35372683,,
+425,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5487956,0.4512044,,
+426,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5027993,0.49720076,,
+427,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6359545,0.36404547,,
+430,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5077734,0.49222657,,
+435,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.80036664,0.19963339,,
+440,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.847569,0.15243104,,
+458,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.56443834,0.4355617,,
+459,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.56720275,0.43279725,,
+461,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.39400178,0.6059982,,
+479,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7188654,0.28113464,,
+484,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.31281787,0.6871821,,
+496,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.54937077,0.45062926,,
+499,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.78330827,0.21669175,,
+505,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.77330256,0.22669747,,
+511,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.567572,0.43242803,,
+517,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5306457,0.46935424,,
+531,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5532629,0.4467371,,
+533,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.73833364,0.26166636,,
+535,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.75299084,0.24700919,,
+536,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8594558,0.14054415,,
+540,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.4845506,0.5154494,,
+551,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6527426,0.34725735,,
+569,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.4944151,0.5055849,,
+571,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6869403,0.3130597,,
+572,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.3314125,0.6685875,,
+591,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8456947,0.15430526,,
+608,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.3726483,0.6273517,,
+621,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5591607,0.44083932,,
+625,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6924455,0.30755448,,
+627,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.79593587,0.20406413,,
+633,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.87076426,0.12923574,,
+636,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.58461183,0.41538817,,
+643,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.9333186,0.066681415,,
+650,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.62218195,0.37781805,,
+665,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6369015,0.36309847,,
+673,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.43996108,0.5600389,,
+679,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.61770505,0.38229495,,
+680,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5772173,0.42278272,,
+683,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.57524157,0.4247584,,
+684,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.78686434,0.21313566,,
+688,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.42672342,0.5732766,,
+689,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.62797403,0.37202594,,
+696,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.87110186,0.12889811,,
+706,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8706123,0.12938766,,
+754,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5783238,0.42167622,,
+757,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.61487347,0.38512653,,
+776,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8879106,0.11208937,,
+782,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5481836,0.45181638,,
+784,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.61663693,0.38336307,,
+800,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5608202,0.43917978,,
+808,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8197012,0.18029884,,
+811,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.24879104,0.75120896,,
+812,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5911324,0.40886763,,
+818,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.540076,0.45992395,,
+819,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.30630684,0.69369316,,
+823,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.77534395,0.22465605,,
+835,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.69607747,0.30392253,,
+836,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6053843,0.3946157,,
+841,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5532431,0.4467569,,
+843,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.539169,0.460831,,
+844,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.54018354,0.4598165,,
+854,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.3975823,0.6024177,,
+857,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.55688405,0.44311592,,
+873,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.60243684,0.39756316,,
+879,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.2709211,0.7290789,,
+884,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8040023,0.19599774,,
+888,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.80066603,0.19933398,,
+891,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5966511,0.40334895,,
+895,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.76844484,0.23155518,,
+899,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7857661,0.21423386,,
+903,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.47673017,0.52326983,,
+907,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6794867,0.3205133,,
+911,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.83684033,0.16315967,,
+917,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7440927,0.25590733,,
+923,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.78581715,0.21418282,,
+924,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7220739,0.27792612,,
+925,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.47545308,0.5245469,,
+933,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5412023,0.45879772,,
+943,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7531182,0.24688177,,
+958,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6595284,0.34047163,,
+967,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.34727937,0.65272063,,
+971,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.874894,0.12510596,,
+976,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5395881,0.46041194,,
+977,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.57971525,0.42028475,,
+982,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5723021,0.4276979,,
+996,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.87546015,0.12453984,,
+1007,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.41281796,0.58718204,,
+1014,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8498569,0.15014307,,
+1031,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.901799,0.09820098,,
+1040,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.91307,0.08692996,,
+1041,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.72019756,0.27980244,,
+1045,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.44714147,0.55285853,,
+1053,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6828399,0.31716016,,
+1054,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.261208,0.738792,,
+1058,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5842906,0.41570938,,
+1064,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.56966877,0.4303312,,
+1065,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.31296307,0.68703693,,
+1070,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.747893,0.252107,,
+1081,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6543474,0.34565258,,
+1082,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5424346,0.45756546,,
+1084,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.9232345,0.07676548,,
+1089,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.77951497,0.22048502,,
+1090,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.53133404,0.46866596,,
+1136,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7034154,0.29658458,,
+1138,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8305737,0.16942635,,
+1140,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5096415,0.4903585,,
+1146,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5474663,0.4525337,,
+1156,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.86830294,0.13169709,,
+1163,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8224119,0.17758814,,
+1173,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5505233,0.44947675,,
+1181,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.75293463,0.24706538,,
+1182,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.56723034,0.43276966,,
+1184,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.69538486,0.3046151,,
+1186,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.69663996,0.30336004,,
+1200,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.63627625,0.36372373,,
+1209,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.567946,0.43205398,,
+1214,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.3883803,0.6116197,,
+1235,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.8984204,0.10157961,,
+1238,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.20871192,0.7912881,,
+1245,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.66788524,0.33211476,,
+1252,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.49954218,0.5004578,,
+1258,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6992508,0.30074918,,
+1261,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7988102,0.20118982,,
+1269,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.63319373,0.36680624,,
+1279,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8257185,0.17428151,,
+1285,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.85622084,0.14377914,,
+1289,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8833879,0.11661208,,
+1298,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5710062,0.4289938,,
+1311,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.8942381,0.105761886,,
+1315,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.727984,0.272016,,
+1322,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.8288405,0.17115952,,
+1324,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.71793294,0.2820671,,
+1326,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.71779823,0.2822018,,
+1332,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5374415,0.46255854,,
+1333,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.74958813,0.25041184,,
+1344,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.70135117,0.2986488,,
+1349,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5105076,0.48949242,,
+1357,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6852379,0.31476212,,
+1361,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.36793995,0.63206005,,
+1364,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7339159,0.26608407,,
+1385,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.65065134,0.3493487,,
+1386,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.15211064,0.84788936,,
+1387,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.583052,0.41694802,,
+1398,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5542776,0.4457224,,
+1407,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.66809535,0.33190468,,
+1411,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.34172398,0.658276,,
+1418,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.63816655,0.36183348,,
+1430,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.52513885,0.47486112,,
+1431,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.73767054,0.26232943,,
+1437,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7516101,0.2483899,,
+1447,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6268305,0.37316948,,
+1449,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5485663,0.45143372,,
+1452,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7513708,0.2486292,,
+1458,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.74266875,0.25733122,,
+1464,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.40078437,0.5992156,,
+1470,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.788465,0.21153499,,
+1477,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8783906,0.12160939,,
+1479,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.39784026,0.60215974,,
+1485,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.48141998,0.51858,,
+1502,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5633421,0.43665788,,
+1503,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7772543,0.22274573,,
+1506,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8559834,0.1440166,,
+1507,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.42503613,0.57496387,,
+1512,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.44640517,0.5535948,,
+1513,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.41672862,0.5832714,,
+1528,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.8724056,0.1275944,,
+1533,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.69397295,0.30602705,,
+1540,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7145689,0.2854311,,
+1544,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.72214437,0.27785566,,
+1547,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.4043122,0.5956878,,
+1555,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.64567447,0.35432553,,
+1562,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6662569,0.33374313,,
+1565,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7169589,0.28304115,,
+1577,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.70708835,0.29291168,,
+1584,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7441887,0.25581127,,
+1588,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.8493775,0.15062247,,
+1590,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.38404596,0.61595404,,
+1593,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.35078722,0.6492128,,
+1616,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.40530926,0.59469074,,
+1622,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.42440242,0.5755976,,
+1628,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.44694942,0.5530506,,
+1632,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.8711711,0.12882891,,
+1639,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8028412,0.19715881,,
+1642,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7110884,0.2889116,,
+1665,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7759254,0.22407462,,
+1666,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.67077583,0.32922417,,
+1671,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7544128,0.24558724,,
+1685,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5741544,0.42584562,,
+1687,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.51734483,0.48265514,,
+1699,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6428821,0.3571179,,
+1702,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.79856896,0.20143102,,
+1705,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5758497,0.4241503,,
+1716,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.63104534,0.36895466,,
+1728,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5529367,0.4470633,,
+1731,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5281797,0.4718203,,
+1734,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5362401,0.4637599,,
+1753,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.31172103,0.688279,,
+1760,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6145678,0.38543218,,
+1777,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.87900156,0.12099846,,
+1779,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.5924692,0.40753078,,
+1780,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.77991664,0.22008333,,
+1783,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.50992864,0.49007136,,
+1818,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.57249725,0.42750275,,
+1832,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.83530307,0.16469692,,
+1835,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5478896,0.45211038,,
+1840,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.39916617,0.60083383,,
+1855,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.19074613,0.8092539,,
+1860,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5047096,0.49529043,,
+1862,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.806895,0.19310495,,
+1864,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.41232014,0.58767986,,
+1872,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.649008,0.35099202,,
+1878,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.4573725,0.5426275,,
+1881,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.53197896,0.468021,,
+1885,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.81130046,0.18869953,,
+1892,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.607424,0.392576,,
+1893,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6207682,0.37923184,,
+1942,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.64286244,0.3571376,,
+1948,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.45098352,0.5490165,,
+1952,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.75613153,0.24386844,,
+1954,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.51047546,0.48952454,,
+1959,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.7762839,0.22371607,,
+1960,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.89552736,0.10447264,,
+1961,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.53875065,0.46124938,,
+1975,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.67795044,0.32204956,,
+1981,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.6083057,0.39169428,,
+1999,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.70510674,0.2948933,,
+2005,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.75798416,0.24201584,,
+2008,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.62685657,0.37314343,,
+2011,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.67627096,0.32372904,,
+2015,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.45750725,0.54249275,,
+2023,QID196,test,the small tray,the large tray,xgb-qid196-seed42,0.33173013,0.6682699,,
+2027,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.6501722,0.34982783,,
+2030,QID196,test,the large tray,the large tray,xgb-qid196-seed42,0.26124662,0.7387534,,
+2044,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.5529464,0.4470536,,
+2046,QID196,test,the small tray,the small tray,xgb-qid196-seed42,0.8331748,0.16682516,,
+2048,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7212602,0.2787398,,
+2056,QID196,test,the large tray,the small tray,xgb-qid196-seed42,0.7032804,0.2967196,,
+6,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4235425,0.5764575
+11,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.30974674,0.69025326
+13,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3521098,0.6478902
+17,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2871971,0.7128029
+19,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7190368,0.28096315
+28,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31318647,0.68681353
+35,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.19881421,0.8011858
+41,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.436037,0.563963
+51,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3682261,0.6317739
+53,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.14640784,0.85359216
+54,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.494299,0.505701
+55,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31997287,0.6800271
+82,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.61615986,0.38384014
+83,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40390778,0.5960922
+89,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.45331883,0.54668117
+94,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3347823,0.6652177
+97,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.44847393,0.55152607
+121,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.263079,0.736921
+127,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6660063,0.33399367
+131,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4696114,0.5303886
+132,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31620502,0.683795
+141,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6667899,0.33321014
+145,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4472713,0.5527287
+157,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.14967471,0.8503253
+161,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3983307,0.6016693
+165,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.69353545,0.30646452
+169,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.34600848,0.6539915
+172,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.48254657,0.51745343
+194,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3788336,0.6211664
+196,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.28613043,0.7138696
+201,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3978433,0.6021567
+202,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.670223,0.32977697
+206,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.22598332,0.7740167
+212,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.52383447,0.47616553
+216,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7159487,0.28405133
+217,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.33335304,0.66664696
+223,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5599821,0.44001788
+224,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6568134,0.34318665
+225,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.60009277,0.39990726
+226,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7363941,0.2636059
+229,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5794631,0.4205369
+234,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31155992,0.6884401
+250,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.34281176,0.65718824
+251,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.23558682,0.7644132
+253,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5657555,0.43424448
+259,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2705388,0.7294612
+260,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5986316,0.40136835
+265,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.35186356,0.64813644
+269,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.53864324,0.46135676
+272,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3727731,0.6272269
+279,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6974133,0.3025867
+283,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.20579499,0.794205
+285,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.35147464,0.64852536
+288,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6031263,0.39687368
+293,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37403286,0.62596714
+302,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.62406635,0.37593368
+303,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.30851394,0.69148606
+318,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4743569,0.5256431
+320,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.25781375,0.74218625
+335,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4629743,0.5370257
+339,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.63570094,0.36429906
+361,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40229732,0.5977027
+374,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.35556924,0.64443076
+378,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40210658,0.5978934
+379,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.15639603,0.84360397
+387,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2560467,0.7439533
+390,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.1925847,0.8074153
+417,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.45022297,0.54977703
+418,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2428897,0.7571103
+420,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2766925,0.7233075
+421,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.47808588,0.5219141
+422,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.39027435,0.60972565
+425,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5241761,0.4758239
+426,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5352784,0.46472162
+427,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.30755496,0.69244504
+430,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3366813,0.6633187
+435,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4854856,0.5145144
+440,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.46798933,0.5320107
+458,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6619436,0.3380564
+459,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.65030044,0.34969956
+461,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.71245146,0.28754854
+479,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4302653,0.5697347
+484,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4934531,0.5065469
+496,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6189928,0.38100722
+499,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4057998,0.5942002
+505,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5538671,0.44613287
+511,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.47370458,0.5262954
+517,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.42695326,0.57304674
+531,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.20684612,0.7931539
+533,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.25314242,0.7468576
+535,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5185921,0.48140785
+536,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.18922526,0.81077474
+540,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7128153,0.28718475
+551,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6639793,0.33602068
+569,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.36597878,0.6340212
+571,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4073338,0.5926662
+572,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7576157,0.24238428
+591,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.35691047,0.64308953
+608,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5432863,0.45671368
+621,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40814668,0.5918533
+625,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.66893584,0.33106416
+627,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.18927866,0.81072134
+633,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.47653127,0.52346873
+636,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5032481,0.49675193
+643,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37071085,0.62928915
+650,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.19096267,0.8090373
+665,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5081519,0.49184814
+673,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.58957523,0.41042477
+679,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.51422,0.48577997
+680,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3994342,0.6005658
+683,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.48254067,0.51745933
+684,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.38313466,0.61686534
+688,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.63408196,0.36591804
+689,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37701708,0.6229829
+696,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.29577684,0.70422316
+706,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.24339497,0.756605
+754,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.21369654,0.78630346
+757,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7213145,0.2786855
+776,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2560674,0.7439326
+782,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.48042488,0.5195751
+784,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5032783,0.49672168
+800,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.28210568,0.7178943
+808,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.424578,0.575422
+811,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.69053924,0.30946073
+812,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.50693965,0.49306038
+818,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.26762682,0.7323732
+819,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7142849,0.28571513
+823,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.27644408,0.7235559
+835,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4683751,0.5316249
+836,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.29726005,0.70273995
+841,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.51057035,0.48942965
+843,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6192379,0.3807621
+844,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2659272,0.7340728
+854,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.57485163,0.42514834
+857,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.30727702,0.692723
+873,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3696748,0.6303252
+879,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.43509644,0.56490356
+884,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37725973,0.62274027
+888,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.51332515,0.48667485
+891,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.29583025,0.70416975
+895,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.43547797,0.564522
+899,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37444574,0.62555426
+903,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5694964,0.43050364
+907,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.54343,0.45657
+911,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.51088655,0.48911342
+917,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.16889375,0.83110625
+923,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.253937,0.746063
+924,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5310066,0.46899343
+925,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.363931,0.636069
+933,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3015775,0.6984225
+943,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3693593,0.6306407
+958,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.19525015,0.80474985
+967,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40100443,0.59899557
+971,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.36897922,0.6310208
+976,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6373112,0.36268878
+977,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4327731,0.5672269
+982,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4550799,0.5449201
+996,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.33379185,0.66620815
+1007,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3779583,0.6220417
+1014,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.30857265,0.69142735
+1031,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.38712507,0.6128749
+1040,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3008952,0.6991048
+1041,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.46705598,0.532944
+1045,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6077229,0.39227712
+1053,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31796312,0.6820369
+1054,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.58803606,0.41196397
+1058,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.46180582,0.5381942
+1064,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3251595,0.6748405
+1065,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.54839015,0.45160985
+1070,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2979673,0.7020327
+1081,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.32741857,0.67258143
+1082,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.48529893,0.51470107
+1084,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2526248,0.7473752
+1089,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.38382226,0.61617774
+1090,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37203574,0.62796426
+1136,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3027854,0.6972146
+1138,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40164763,0.5983524
+1140,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.32184362,0.6781564
+1146,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.43981695,0.56018305
+1156,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.62009597,0.37990403
+1163,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.28234965,0.71765035
+1173,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40270966,0.59729034
+1181,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4008575,0.5991425
+1182,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.50467384,0.49532616
+1184,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.42293435,0.57706565
+1186,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.26177686,0.73822314
+1200,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.46641672,0.5335833
+1209,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5180204,0.48197958
+1214,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.30455875,0.69544125
+1235,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2557565,0.7442435
+1238,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31405938,0.6859406
+1245,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.36774313,0.63225687
+1252,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6047698,0.39523017
+1258,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5171095,0.48289046
+1261,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6335975,0.3664025
+1269,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4346233,0.5653767
+1279,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5773463,0.42265368
+1285,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4289871,0.5710129
+1289,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.41043758,0.5895624
+1298,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37013948,0.6298605
+1311,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3952425,0.6047575
+1315,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.46891475,0.53108525
+1322,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5369429,0.4630571
+1324,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4733076,0.5266924
+1326,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6839695,0.31603047
+1332,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5674585,0.43254152
+1333,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.36098373,0.6390163
+1344,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.43099868,0.5690013
+1349,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3669963,0.6330037
+1357,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.48630583,0.51369417
+1361,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6605141,0.33948588
+1364,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.43697798,0.563022
+1385,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.32971424,0.67028576
+1386,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.51381373,0.48618627
+1387,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6760615,0.32393852
+1398,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.19705045,0.80294955
+1407,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7345412,0.26545882
+1411,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.35530978,0.6446902
+1418,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5125283,0.4874717
+1430,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.64016736,0.3598326
+1431,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.677619,0.32238105
+1437,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37563187,0.62436813
+1447,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3992718,0.6007282
+1449,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6850378,0.3149622
+1452,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5814827,0.4185173
+1458,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.52121246,0.47878757
+1464,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3582707,0.6417293
+1470,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.34233594,0.65766406
+1477,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4779153,0.5220847
+1479,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.538414,0.46158603
+1485,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5622879,0.43771204
+1502,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.52626777,0.47373223
+1503,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.19159925,0.80840075
+1506,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.49398166,0.50601834
+1507,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5590403,0.44095972
+1512,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.63113695,0.36886305
+1513,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5694236,0.43057638
+1528,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.38432235,0.61567765
+1533,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.46604323,0.53395677
+1540,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5621463,0.4378537
+1544,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5350441,0.4649559
+1547,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.48882717,0.51117283
+1555,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3027454,0.6972546
+1562,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.44661355,0.55338645
+1565,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.28167498,0.718325
+1577,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.55716383,0.44283614
+1584,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3123777,0.6876223
+1588,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.37618303,0.62381697
+1590,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3708653,0.6291347
+1593,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40905344,0.59094656
+1616,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.7495023,0.25049773
+1622,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.42431855,0.57568145
+1628,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2674374,0.7325626
+1632,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31410414,0.68589586
+1639,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.45080262,0.5491974
+1642,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.30049133,0.69950867
+1665,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.36511868,0.6348813
+1666,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5251634,0.47483662
+1671,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.23498148,0.7650185
+1685,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5073561,0.4926439
+1687,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5458743,0.4541257
+1699,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.677284,0.32271603
+1702,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5474446,0.45255542
+1705,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5684321,0.43156794
+1716,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.32891494,0.67108506
+1728,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40424132,0.5957587
+1731,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.57169116,0.4283088
+1734,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.1618532,0.8381468
+1753,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.60718536,0.3928146
+1760,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5189053,0.48109472
+1777,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4458391,0.5541609
+1779,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.33911967,0.6608803
+1780,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.24421561,0.7557844
+1783,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.2463432,0.7536568
+1818,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.46375716,0.53624284
+1832,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.31670886,0.68329114
+1835,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5681292,0.4318708
+1840,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4290412,0.5709588
+1855,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6626242,0.33737582
+1860,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.40170896,0.59829104
+1862,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.19817978,0.8018202
+1864,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.43822902,0.561771
+1872,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5806812,0.41931883
+1878,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.4432134,0.5567866
+1881,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.55762047,0.44237953
+1885,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.16045886,0.83954114
+1892,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.65117985,0.34882015
+1893,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.64736,0.35263997
+1942,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.27379972,0.7262003
+1948,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5461455,0.4538545
+1952,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.41859758,0.5814024
+1954,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5648786,0.4351214
+1959,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5554372,0.4445628
+1960,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.3486812,0.6513188
+1961,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.64008176,0.35991827
+1975,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.42870295,0.57129705
+1981,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5504591,0.4495409
+1999,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.678402,0.321598
+2005,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.5164192,0.48358083
+2008,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6919792,0.30802077
+2011,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.637262,0.362738
+2015,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.47651148,0.5234885
+2023,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.56424713,0.43575284
+2027,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.48978782,0.5102122
+2030,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6544545,0.34554547
+2044,QID9_3,test,"Yes, I would purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.39915597,0.600844
+2046,QID9_3,test,"Yes, I would purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.59963655,0.40036345
+2048,QID9_3,test,"No, I would not purchase the product","No, I would not purchase the product",xgb-qid9_3-seed42,,,0.34393835,0.65606165
+2056,QID9_3,test,"No, I would not purchase the product","Yes, I would purchase the product",xgb-qid9_3-seed42,,,0.6261383,0.37386164

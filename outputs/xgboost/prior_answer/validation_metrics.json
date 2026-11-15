@@ -1,0 +1,278 @@
+{
+  "model_variant": "profile features plus prior answer to the same question",
+  "selection": "4-fold stratified CV on train, scoring=accuracy",
+  "test_split_used": false,
+  "seed": 42,
+  "split_version": "v1",
+  "package_versions": {
+    "pandas": "3.1.1",
+    "scikit_learn": "1.9.1",
+    "xgboost": "3.2.0"
+  },
+  "questions": {
+    "QID196": {
+      "n_training_participants": 1440,
+      "n_validation_participants": 309,
+      "profile_feature_count": 696,
+      "prior_answer_included": true,
+      "cv_best_accuracy": 0.7180555555555556,
+      "cv_best_parameters": {
+        "classifier__learning_rate": 0.03,
+        "classifier__max_depth": 2,
+        "classifier__n_estimators": 100
+      },
+      "validation": {
+        "n": 309,
+        "accuracy": 0.7119741100323624,
+        "macro_f1": 0.6934284599520651,
+        "balanced_accuracy": 0.6937645167053779,
+        "roc_auc": 0.7418259782026084,
+        "confusion_matrix": [
+          [
+            148,
+            45
+          ],
+          [
+            44,
+            72
+          ]
+        ],
+        "classification_report": {
+          "option_1": {
+            "precision": 0.7708333333333334,
+            "recall": 0.7668393782383419,
+            "f1-score": 0.7688311688311689,
+            "support": 193.0
+          },
+          "option_2": {
+            "precision": 0.6153846153846154,
+            "recall": 0.6206896551724138,
+            "f1-score": 0.6180257510729614,
+            "support": 116.0
+          },
+          "accuracy": 0.7119741100323624,
+          "macro avg": {
+            "precision": 0.6931089743589745,
+            "recall": 0.6937645167053779,
+            "f1-score": 0.6934284599520651,
+            "support": 309.0
+          },
+          "weighted avg": {
+            "precision": 0.7124771803169861,
+            "recall": 0.7119741100323624,
+            "f1-score": 0.7122181317439454,
+            "support": 309.0
+          }
+        },
+        "majority_baseline_accuracy": 0.6245954692556634,
+        "persistence_baseline_accuracy": 0.7087378640776699
+      },
+      "cv_results": [
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.7180555555555556,
+          "std_accuracy": 0.01762302436173545
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.7104166666666667,
+          "std_accuracy": 0.015636569790552397
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.7069444444444444,
+          "std_accuracy": 0.01577474540500075
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.6979166666666667,
+          "std_accuracy": 0.019081432866713988
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.7013888888888888,
+          "std_accuracy": 0.016839382851364076
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.6770833333333334,
+          "std_accuracy": 0.011846334798077746
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.6930555555555555,
+          "std_accuracy": 0.019295061096458038
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.6902777777777778,
+          "std_accuracy": 0.02564747960086025
+        }
+      ]
+    },
+    "QID9_3": {
+      "n_training_participants": 1440,
+      "n_validation_participants": 309,
+      "profile_feature_count": 657,
+      "prior_answer_included": true,
+      "cv_best_accuracy": 0.8611111111111112,
+      "cv_best_parameters": {
+        "classifier__learning_rate": 0.03,
+        "classifier__max_depth": 2,
+        "classifier__n_estimators": 100
+      },
+      "validation": {
+        "n": 309,
+        "accuracy": 0.8122977346278317,
+        "macro_f1": 0.8112520010110371,
+        "balanced_accuracy": 0.8106563576771157,
+        "roc_auc": 0.8258256996386252,
+        "confusion_matrix": [
+          [
+            114,
+            32
+          ],
+          [
+            26,
+            137
+          ]
+        ],
+        "classification_report": {
+          "option_1": {
+            "precision": 0.8142857142857143,
+            "recall": 0.7808219178082192,
+            "f1-score": 0.7972027972027972,
+            "support": 146.0
+          },
+          "option_2": {
+            "precision": 0.8106508875739645,
+            "recall": 0.8404907975460123,
+            "f1-score": 0.8253012048192772,
+            "support": 163.0
+          },
+          "accuracy": 0.8122977346278317,
+          "macro avg": {
+            "precision": 0.8124683009298395,
+            "recall": 0.8106563576771157,
+            "f1-score": 0.8112520010110371,
+            "support": 309.0
+          },
+          "weighted avg": {
+            "precision": 0.8123683137872831,
+            "recall": 0.8122977346278317,
+            "f1-score": 0.8120249345538852,
+            "support": 309.0
+          }
+        },
+        "majority_baseline_accuracy": 0.5275080906148867,
+        "persistence_baseline_accuracy": 0.8122977346278317
+      },
+      "cv_results": [
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.8611111111111112,
+          "std_accuracy": 0.015340779190537852
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.8611111111111112,
+          "std_accuracy": 0.015340779190537852
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.8611111111111112,
+          "std_accuracy": 0.015340779190537852
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.03,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.8583333333333334,
+          "std_accuracy": 0.015340779190537853
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.8611111111111112,
+          "std_accuracy": 0.015340779190537852
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 2,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.8562500000000001,
+          "std_accuracy": 0.011516058299845143
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 100
+          },
+          "mean_accuracy": 0.8604166666666667,
+          "std_accuracy": 0.015636569790552352
+        },
+        {
+          "parameters": {
+            "classifier__learning_rate": 0.1,
+            "classifier__max_depth": 4,
+            "classifier__n_estimators": 300
+          },
+          "mean_accuracy": 0.857638888888889,
+          "std_accuracy": 0.014214923257262993
+        }
+      ]
+    }
+  }
+}

@@ -379,7 +379,7 @@ def xgboost_features(w13: pd.DataFrame, splits: pd.DataFrame, catalog: dict,
 
 def main() -> int:
     PROCESSED.mkdir(parents=True, exist_ok=True)
-    catalog = json.loads((RAW / "question_catalog.json").read_text())
+    catalog = json.loads((RAW / "question_catalog.json").read_text(encoding="utf-8"))
     w13 = load_label_csv("wave1_3_response_label.csv")
     w4 = load_label_csv("wave4_response_label.csv")
     parquet_files = sorted(RAW.glob("wave_split/*.parquet"))
