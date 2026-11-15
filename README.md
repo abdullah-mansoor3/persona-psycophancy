@@ -5,6 +5,8 @@ Can a profile-anchored revision protocol reduce unsupported peer-majority confor
 
 This project operationalizes one sycophancy-related behaviour: changing toward a peer majority without relevant new evidence. Agreement and answer changes are not automatically sycophancy. The intervention must permit justified revision.
 
+The executed-results audit is in [`context/10_empirical_results_audit.md`](context/10_empirical_results_audit.md). It records missing or incomplete artifacts separately from verified results. This repository studies LLM sycophancy in synthetic personas; it does not measure psychopathy.
+
 ## Research basis
 1. Toubia et al. (2025), *Twin-2K-500*, Marketing Science 44(6), 1446–1455. DOI: https://doi.org/10.1287/mksc.2025.0262. Dataset: https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500
 2. Choi et al. (2025), *An Empirical Study of Group Conformity in Multi-Agent Systems*, Findings of ACL 2025. https://aclanthology.org/2025.findings-acl.265/
@@ -66,6 +68,15 @@ Column meaning, design rules and usage recipes for every processed file:
 - XGBoost: keep profile-only (634 columns) and expanded (+126) feature sets separate;
   per-model exclusion lists are in `data/preprocessing_manifest.json`.
 - Full details: `context/data_dictionary.md`.
+
+## Current empirical status
+
+- The archived Qwen run contains 420 valid generations: A/B/C each have 120 instances and E has 60 QID196 instances.
+- Condition B has 25 answer changes, all from the peer-majority answer to the peer-minority answer on QID9_3. No initial minority-to-majority switches were observed.
+- Condition C has 0 changes and matches A on the stored Wave 4 fidelity metrics.
+- Condition D was not run. The referenced XGBoost probability handoff file is missing from this checkout.
+- Condition E had no initially non-evidence choices, so evidence-based revision was not tested.
+- Do not use the old report's McNemar/significance claim; the stored comparison has zero eligible paired minority trials.
 
 ## Repository structure and ownership
 ```text
@@ -129,7 +140,7 @@ Do not import another member's private helper functions. Integrate through the f
 2. Member 2 trains an optional XGBoost baseline using only permitted features and participant splits.
 3. Member 3 implements A/B/C conditions, then optionally integrates D and the evidence-positive pilot.
 4. Run a 5-participant pilot; check leakage, answer parsing, question mapping, and runtime.
-5. Set final N from actual eligibility and runtime. A previously discussed 60 participants × 2 questions is only a planning estimate, not a confirmed sample.
+5. Set final N from actual eligibility and runtime. The archived run used 60 participants × 2 questions for A/B/C and 60 QID196 trials for E; this is not a full-test-cohort result.
 6. Freeze settings and run final evaluation by Day 4. Day 5 is documentation only.
 
 ## Metrics

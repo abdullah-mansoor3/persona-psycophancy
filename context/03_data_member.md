@@ -22,14 +22,14 @@ Use official configuration/data as source of truth.
 8. Export files defined in `06_shared_contracts.md` and a data audit manifest.
 
 ## Deliverables
-`questions.csv`, `participant_splits.csv`, `persona_profiles.csv`, `human_ground_truth.csv`, `peer_responses.csv`, `data_audit.json`.
+Actual repository exports are `target_questions.csv`, `participant_splits.csv`, `persona_profiles.csv`, `human_answers.csv`, `peer_responses.csv`, `target_question_variants.csv`, `xgboost_features.csv`, `xgboost_targets.csv`, and `data/preprocessing_manifest.json`.
 
 ## Done when
-- [ ] Actual schema and wave mappings documented.
-- [ ] Target questions and variants justified.
-- [ ] Participant splits reproducible and disjoint.
-- [ ] Leakage/self-peer checks pass.
-- [ ] Output files validate against shared contracts.
-- [ ] Counts, missingness, exclusions, IDs, seed, and caveats recorded in progress tracker.
+- [x] Actual schema and wave mappings documented.
+- [x] Target questions and variants justified.
+- [x] Participant splits reproducible and disjoint.
+- [x] Leakage/self-peer checks pass.
+- [x] Output files validate against shared contracts.
+- [x] Counts, missingness, exclusions, IDs, seed, and caveats recorded in progress tracker.
 
 Raw data should not be committed unless license and team policy permit it.

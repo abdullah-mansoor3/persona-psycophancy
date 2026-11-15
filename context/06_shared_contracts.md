@@ -34,6 +34,8 @@ One row per option. Probabilities per participant/question sum approximately to 
 Suggested JSONL `results/agent_outputs/agent_runs.jsonl`, one object per run:
 `run_id`, `participant_id`, `question_id`, `condition`, `model_id`, `model_revision`, `decoding_config`, `initial_answer`, `initial_rationale`, `peer_answers`, `final_answer`, `final_rationale`, `revision_reason`, `evidence_classification`, `raw_output`, `parse_valid`, `error`, `prompt_version`.
 
+The archived Qwen output does not fully satisfy this proposed schema. Its CSV/JSONL contains parsed answer fields, peer fields, parse status, latency, and timestamp, but does not contain full prompts, raw model output, `model_revision`, `decoding_config`, or `prompt_version`. Treat those fields as missing evidence, not as reconstructed facts.
+
 ## Code boundaries
 Shared code in `src/common/` should contain only small shared dataclasses, validators, and config readers. Each member module should run independently via CLI and consume files, not private functions from another member. Avoid circular imports. Contract changes require agreement and tests.
 
@@ -58,3 +60,5 @@ delivered file/column requires team agreement.
 Selection flags: `target_questions.csv` uses `selected_for_core` for the two verified
 core targets (QID196, QID9_3); audited but non-selected candidates are listed with
 `selection_notes` for provenance.
+
+The XGBoost models and metrics were delivered, but the proposed participant-level probability handoff was not found at `outputs/xgboost/predictions/xgboost_gate_probabilities.csv`; consequently, Condition D has no archived run records.

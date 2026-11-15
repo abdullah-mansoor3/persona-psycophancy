@@ -18,6 +18,8 @@ Core: construct personas; record initial answers; expose controlled peer answers
 Optional: XGBoost soft anchor; evidence-positive pilot.
 Out of scope: foundation-model training, production app, claim of solving sycophancy generally.
 
+Actual-result status and unresolved artifacts are recorded in `context/10_empirical_results_audit.md`. The current repository contains sycophancy/persona experiments, not a psychopathy measure or psychopathy-specific result.
+
 ## Team
 - Member 1: dataset audit, cleaning, splits, persona profiles, peer pool.
 - Member 2: optional XGBoost baseline and evaluation.

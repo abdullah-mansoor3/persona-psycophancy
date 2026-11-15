@@ -25,9 +25,13 @@ Dataset provides responses, not ready-made arguments. Team must author and indep
 Same model/version/settings/profile/question/initial answer/peer messages across conditions; one revision round. Save prompts, raw outputs, parsed answers, rationale, condition, run ID, model revision, decoding settings, parse errors. Do not silently discard failures.
 
 ## Done when
-- [ ] Model loads and structured output validates.
-- [ ] A/B/C run end-to-end.
-- [ ] B/C receive identical peer messages.
-- [ ] No target/Wave 4 leakage.
-- [ ] Gate allows justified revisions.
-- [ ] Pilot and final outputs/metrics are reproducible.
+- [x] Model loads and structured output validates for the archived Qwen run.
+- [x] A/B/C run end-to-end for 60 participants and two targets.
+- [x] B/C receive identical peer messages under the processed-data contract.
+- [x] No target/Wave 4 leakage was found by the data audit and runner design.
+- [ ] Gate allows justified revisions; the evidence pilot had no initially unsupported cases, so this remains untested.
+- [ ] Pilot and final outputs/metrics are fully reproducible; the archive lacks full prompts and complete decoding/model-revision metadata.
+
+## Actual execution notes
+
+The archive contains A, B, C, and E only: 120 rows each for A/B/C and 60 QID196 rows for E. Condition D has no rows because the XGBoost probability handoff is absent. The 25 B changes were all from the peer-majority answer to the peer-minority answer on QID9_3, so the run does not establish majority-directed conformity.

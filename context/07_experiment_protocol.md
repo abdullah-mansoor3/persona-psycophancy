@@ -35,5 +35,11 @@ The dataset does not provide evidence arguments. Team authors and verifies them.
 ## Statistics
 Choose tests based on paired/binary/categorical structure. Account for repeated observations per participant. Report effect sizes, confidence intervals, sample size, and p-values if inferential tests are used. Otherwise report descriptive comparisons and label them as such.
 
+## Execution audit
+
+The archived run contains 120 instances each for A, B, and C, plus 60 QID196 instances for E. There were no initial minority cases: every A/B/C initial answer matched the constructed peer majority. The 25 B changes therefore moved from the peer majority to the peer minority, so the planned minority-to-majority conformity statistic had a zero denominator and was not observed. The stored B/C comparison reports zero paired minority trials and `p_value = 1.0`; the result must be reported descriptively.
+
+Condition D was not executed because the XGBoost probability handoff artifact is missing. The evidence-positive pilot had no initially non-evidence choices, so evidence-consistent revision remains untested. See `context/10_empirical_results_audit.md`.
+
 ## Success
 Gate reduces unsupported conformity vs unrestricted interaction, permits valid evidence-based revision, and does not substantially damage Wave 4 fidelity. Reduced answer-change rate alone is not success.
