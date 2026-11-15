@@ -1,0 +1,133 @@
+{
+  "selection": "four-fold stratified CV on train; validation used for model comparison",
+  "test_split_used": false,
+  "prior_answer_variant_is_separate_from_profile_only": true,
+  "seed": 42,
+  "scikit_learn": "1.9.1",
+  "questions": {
+    "QID196/profile_only/logistic_regression": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.6277777777777778,
+      "cv_std": 0.007081971546656621,
+      "best_parameters": {
+        "classifier__C": 0.001,
+        "classifier__class_weight": null
+      },
+      "validation": {
+        "accuracy": 0.6472491909385113,
+        "macro_f1": 0.5493879189243428,
+        "balanced_accuracy": 0.5662855100946935
+      }
+    },
+    "QID196/profile_only/extra_trees": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.6375,
+      "cv_std": 0.021916296997304834,
+      "best_parameters": {
+        "classifier__class_weight": null,
+        "classifier__max_features": "sqrt",
+        "classifier__min_samples_leaf": 10
+      },
+      "validation": {
+        "accuracy": 0.6181229773462783,
+        "macro_f1": 0.44954710144927534,
+        "balanced_accuracy": 0.5120153653743077
+      }
+    },
+    "QID196/profile_plus_prior_answer/logistic_regression": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.6409722222222222,
+      "cv_std": 0.013801810357188736,
+      "best_parameters": {
+        "classifier__C": 0.001,
+        "classifier__class_weight": null
+      },
+      "validation": {
+        "accuracy": 0.6504854368932039,
+        "macro_f1": 0.5552297686320503,
+        "balanced_accuracy": 0.5705958549222798
+      }
+    },
+    "QID196/profile_plus_prior_answer/extra_trees": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.6791666666666667,
+      "cv_std": 0.02616867177974551,
+      "best_parameters": {
+        "classifier__class_weight": "balanced",
+        "classifier__max_features": "sqrt",
+        "classifier__min_samples_leaf": 10
+      },
+      "validation": {
+        "accuracy": 0.6925566343042071,
+        "macro_f1": 0.6749061430612313,
+        "balanced_accuracy": 0.676500804002144
+      }
+    },
+    "QID9_3/profile_only/logistic_regression": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.5576388888888888,
+      "cv_std": 0.03070512634643629,
+      "best_parameters": {
+        "classifier__C": 0.001,
+        "classifier__class_weight": "balanced"
+      },
+      "validation": {
+        "accuracy": 0.5857605177993528,
+        "macro_f1": 0.5838383838383838,
+        "balanced_accuracy": 0.5837885536599714
+      }
+    },
+    "QID9_3/profile_only/extra_trees": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.56875,
+      "cv_std": 0.012325166214790868,
+      "best_parameters": {
+        "classifier__class_weight": null,
+        "classifier__max_features": "sqrt",
+        "classifier__min_samples_leaf": 10
+      },
+      "validation": {
+        "accuracy": 0.5631067961165048,
+        "macro_f1": 0.536525748569524,
+        "balanced_accuracy": 0.551600974871838
+      }
+    },
+    "QID9_3/profile_plus_prior_answer/logistic_regression": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.7666666666666666,
+      "cv_std": 0.014299486306926387,
+      "best_parameters": {
+        "classifier__C": 0.1,
+        "classifier__class_weight": null
+      },
+      "validation": {
+        "accuracy": 0.7605177993527508,
+        "macro_f1": 0.7583896872358411,
+        "balanced_accuracy": 0.75764770148752
+      }
+    },
+    "QID9_3/profile_plus_prior_answer/extra_trees": {
+      "n_train": 1440,
+      "n_validation": 309,
+      "cv_accuracy": 0.8395833333333333,
+      "cv_std": 0.02502891845963903,
+      "best_parameters": {
+        "classifier__class_weight": "balanced",
+        "classifier__max_features": "sqrt",
+        "classifier__min_samples_leaf": 10
+      },
+      "validation": {
+        "accuracy": 0.7864077669902912,
+        "macro_f1": 0.7850004216918276,
+        "balanced_accuracy": 0.7843306160181528
+      }
+    }
+  }
+}

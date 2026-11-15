@@ -1,0 +1,63 @@
+{
+  "purpose": "Final held-out test assessment of frozen training-CV selections; no further tuning",
+  "test_used_for_tuning": false,
+  "split_version": "v1",
+  "questions": {
+    "QID196": {
+      "n_test": 309,
+      "tuned_profile_xgboost": {
+        "accuracy": 0.6213592233009708,
+        "macro_f1": 0.48264907485582637,
+        "balanced_accuracy": 0.5285295944626852
+      },
+      "prior_answer_persistence": {
+        "accuracy": 0.7313915857605178,
+        "macro_f1": 0.7131111782274573,
+        "balanced_accuracy": 0.711465081196202
+      },
+      "majority_class": {
+        "accuracy": 0.6181229773462783,
+        "macro_f1": 0.382,
+        "balanced_accuracy": 0.5
+      },
+      "selected_parameters": {
+        "classifier__subsample": 0.8,
+        "classifier__reg_lambda": 5.0,
+        "classifier__n_estimators": 300,
+        "classifier__min_child_weight": 12,
+        "classifier__max_depth": 2,
+        "classifier__learning_rate": 0.01,
+        "classifier__gamma": 0.0,
+        "classifier__colsample_bytree": 0.65
+      }
+    },
+    "QID9_3": {
+      "n_test": 309,
+      "tuned_profile_xgboost": {
+        "accuracy": 0.517799352750809,
+        "macro_f1": 0.4867510172231202,
+        "balanced_accuracy": 0.495452227133628
+      },
+      "prior_answer_persistence": {
+        "accuracy": 0.8252427184466019,
+        "macro_f1": 0.8234659331358443,
+        "balanced_accuracy": 0.8250595035702142
+      },
+      "majority_class": {
+        "accuracy": 0.5598705501618123,
+        "macro_f1": 0.35892116182572614,
+        "balanced_accuracy": 0.5
+      },
+      "selected_parameters": {
+        "classifier__subsample": 0.8,
+        "classifier__reg_lambda": 20.0,
+        "classifier__n_estimators": 300,
+        "classifier__min_child_weight": 3,
+        "classifier__max_depth": 2,
+        "classifier__learning_rate": 0.02,
+        "classifier__gamma": 0.0,
+        "classifier__colsample_bytree": 1.0
+      }
+    }
+  }
+}
